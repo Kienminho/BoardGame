@@ -2,7 +2,14 @@ const Utils = require("../common/utils");
 const Question = require("../model/question");
 const Topic = require("../model/topic");
 
-const getAllQuestions = async (req, res) => {};
+const getAllQuestions = async (req, res) => {
+  try {
+    const questions = await Question.find({ isDeleted: false });
+    res.json(Utils.createSuccessResponseModel(questions, questions.length));
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
 
 const getRandomQuestion = async (req, res) => {
   try {
