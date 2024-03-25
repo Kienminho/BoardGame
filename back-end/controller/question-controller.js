@@ -4,7 +4,8 @@ const Topic = require("../model/topic");
 
 const getAllQuestions = async (req, res) => {
   try {
-    const questions = await Question.find({ isDeleted: false });
+    //find all questions isDeleted == false || not exist isDeleted
+    const questions = await Question.find({ isDeleted: { $ne: true } });
     res.json(Utils.createSuccessResponseModel(questions, questions.length));
   } catch (error) {
     res.status(500).json({ message: error.message });
