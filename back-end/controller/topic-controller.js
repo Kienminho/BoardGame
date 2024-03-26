@@ -10,6 +10,23 @@ const getAllTopics = async (req, res) => {
   }
 };
 
+const getAllQuestionsByTopic = async (req, res) => {
+  try {
+    const { id } = req.params;
+    if (!id) {
+      return res
+        .status(400)
+        .json(Utils.createResponseModel(400, "Id is required"));
+    }
+    //find all questions by topicId
+    const questions = await Question.findMany({ topicId: id });
+    res.json(Utils.createSuccessResponseModel(questions, questions.length));
+  } catch (error) {
+    console.log("TopicController -> getAllQuestionsByTopic -> error", error);
+    res.status(500).json(Utils.createResponseModel(500, error.message));
+  }
+};
+
 const createTopic = async (req, res) => {
   try {
     const { title, color } = req.body;
@@ -76,6 +93,7 @@ const deleteTopic = async (req, res) => {
 
 module.exports = {
   getAllTopics,
+  getAllQuestionsByTopic,
   createTopic,
   updateTopic,
   deleteTopic,
