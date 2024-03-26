@@ -54,7 +54,7 @@ const updateTopic = async (req, res) => {
 
 const deleteTopic = async (req, res) => {
   try {
-    const { id } = req.params.id;
+    const { id } = req.params;
     if (!id) {
       return res
         .status(400)
