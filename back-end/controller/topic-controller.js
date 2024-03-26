@@ -1,5 +1,6 @@
 const Utils = require("../common/utils");
 const Topic = require("../model/topic");
+const Question = require("../model/question");
 
 const getAllTopics = async (req, res) => {
   try {
@@ -19,7 +20,10 @@ const getAllQuestionsByTopic = async (req, res) => {
         .json(Utils.createResponseModel(400, "Id is required"));
     }
     //find all questions by topicId
-    const questions = await Question.findMany({ topicId: id });
+    const questions = await Question.find({
+      topicId: id,
+      isDeleted: { $ne: true },
+    });
     res.json(Utils.createSuccessResponseModel(questions, questions.length));
   } catch (error) {
     console.log("TopicController -> getAllQuestionsByTopic -> error", error);
