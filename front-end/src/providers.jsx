@@ -10,7 +10,8 @@ const Providers = ({ children }) => {
       <ConfigProvider
         theme={{
           token: {
-            colorPrimary: "#rgb(102 67 27)",
+            // colorPrimary: "#rgb(102 67 27)",
+            colorPrimary: "black",
           },
         }}
       >

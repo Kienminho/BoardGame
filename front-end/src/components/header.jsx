@@ -17,7 +17,7 @@ const Header = () => {
         className="ml-2"
       >
         <Link to="/" className="!text-primary text-3xl font-bold">
-          Board Game
+          Legacy Tales
         </Link>
       </Navbar.Brand>
 
@@ -32,9 +32,13 @@ const Header = () => {
         <Navbar.Link as={Link} to="/articles" className="!text-primary text-lg">
           Bài viết
         </Navbar.Link>
-        <Navbar.Link as={Link} to="mini-game" className="!text-primary text-lg">
-          Mini Game
-        </Navbar.Link>
+        {/* <Navbar.Link
+          as={Link}
+          to="game-storage"
+          className="!text-primary text-lg"
+        >
+          Game Storage
+        </Navbar.Link> */}
         <Navbar.Brand
           active
           className="flex items-center gap-2 mt-2 ml-4 md:mt-0 md:ml-0"

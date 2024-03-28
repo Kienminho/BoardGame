@@ -23,7 +23,7 @@ function App() {
             <Route path="about-us" element={<AboutPage />} />
             <Route path="articles" element={<ArticlesPage />} />
             <Route path="cart" element={<CartPage />} />
-            <Route path="mini-game" element={<MiniGamePage />} />
+            <Route path="game-storage" element={<MiniGamePage />} />
             <Route path="products" element={<ProductListPage />} />
             <Route path="products/:id" element={<ProductDetailPage />} />
           </Route>
