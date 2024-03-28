@@ -8,8 +8,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        "background-footer": "rgb(236 231 209)",
-        primary: "rgb(102 67 27)",
+        // "background-footer": "rgb(236 231 209)",
+        "background-footer": "black",
+        // primary: "rgb(102 67 27)",
+        primary: "white",
         secondary: "rgb(rgb(102 67 27) / .7)",
       },
     },

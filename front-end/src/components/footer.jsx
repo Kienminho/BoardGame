@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-background-footer">
       <div className="container mx-auto px-2 pt-10 pb-4 flex flex-col md:flex-row gap-10 md:gap-10">
-        <div className="min-w-[100px] md:max-w-[300px] space-y-4 text-primary">
+        <div className="min-w-[100px] md:max-w-[400px] space-y-4 text-primary">
           <h3 className="text-2xl  font-semibold">Đăng ký</h3>
           <p>Nhận ngay mã giảm giá 10% cho đơn đặt hàng đầu tiên</p>
           <input
@@ -111,7 +111,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="flex flex-col  gap-2">
+          {/* <div className="flex flex-col  gap-2">
             <p className="text-base font-bold mb-2">Chính sách</p>
             <ul className="flex flex-col gap-2">
               <li>
@@ -135,7 +135,7 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

@@ -18,7 +18,7 @@ const CartButton = () => {
     <div>
       <Button type="link" onClick={onOpenCart}>
         <Badge count={5}>
-          <ShoppingCart />
+          <ShoppingCart color="white" />
         </Badge>
       </Button>
 
