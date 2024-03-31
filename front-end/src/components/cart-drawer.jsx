@@ -7,7 +7,7 @@ const CartTitle = () => {
     <div className="flex items-center gap-2">
       Giỏ hàng
       <Tag color="#f50" className="rounded-full">
-        6
+        1
       </Tag>
     </div>
   );
@@ -32,7 +32,7 @@ const CartDrawer = ({ onClose, open }) => {
         <div className="border-top border-gray-500 p-4 space-y-2">
           <div className="flex justify-between items-center text-xl font-semibold">
             <span>Thành tiền</span>
-            15.694.000 VND
+            2.245.000 VND
           </div>
           <a href="#" className="inline-block decoration-solid text-primary">
             Thêm ghi chú đơn hàng
