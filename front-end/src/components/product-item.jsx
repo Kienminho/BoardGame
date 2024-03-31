@@ -10,7 +10,7 @@ export default function ProductItem() {
           alt="Thumbnail"
           className="absolute inset-0 w-full h-full object-cover"
           height={300}
-          src="https://images.unsplash.com/photo-1632501641765-e568d28b0015?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Ym9hcmQlMjBnYW1lfGVufDB8fDB8fHww"
+          src="/images/product-image.png"
           width={300}
         />
       </div>
