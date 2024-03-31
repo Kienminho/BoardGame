@@ -19,9 +19,9 @@ export default function ProductItem() {
           className="font-semibold !text-black text-xl line-clamp-1 hover:underline-gray-900 dark:hover:underline-gray-50"
           href="#"
         >
-          Petits Chevaux
+          Torane
         </Link>
-        <div className="font-semibold text-base">$99</div>
+        <div className="font-semibold text-base">449.000 VNĐ</div>
         <Button size="large" type="primary">
           Thêm vào giỏ
         </Button>

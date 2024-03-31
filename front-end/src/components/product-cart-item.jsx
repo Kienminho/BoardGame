@@ -11,12 +11,12 @@ const ProductCartItem = () => {
           alt="Chess"
         />
         <div className="flex flex-col justify-center">
-          <p className="font-semibold text-lg">Cờ vua - Phiên bản đặc biệt</p>
-          <div className="text-gray-400">20.000.000 VND</div>
+          <p className="font-semibold text-lg">Torane</p>
+          <div className="text-gray-400">2.245.000 VND</div>
         </div>
       </div>
       <div className="flex flex-col">
-        <Input style={{ width: 45, textAlign: "center" }} value={20} />
+        <Input style={{ width: 45, textAlign: "center" }} value={5} />
         <a>Remove</a>
       </div>
     </div>

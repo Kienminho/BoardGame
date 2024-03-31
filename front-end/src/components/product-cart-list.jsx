@@ -5,18 +5,6 @@ const cartProducts = [
     id: "1",
     label: "Product 1",
   },
-  {
-    id: "2",
-    label: "Product 2",
-  },
-  {
-    id: "3",
-    label: "Product 3",
-  },
-  {
-    id: "4",
-    label: "Product 4",
-  },
 ];
 
 const ProductCartList = ({ products = cartProducts }) => {
