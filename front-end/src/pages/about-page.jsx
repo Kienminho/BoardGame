@@ -4,47 +4,38 @@ const AboutThisCompany = () => {
   return (
     <div className="flex flex-wrap mt-10">
       <div className="w-full md:w-1/2">
-        <img
-          src="https://www.maztermind.vn/cdn/shop/files/1_1500x1500_4db0bd5c-2bdf-490d-9d6a-6b32ec05bc75.jpg?v=1694424763&width=1400"
-          alt="Image 1"
-        />
+        <img src="/images/Tourane_Render_04.png" alt="Image 1" />
       </div>
       <div className="w-full md:w-1/2">
         <div className=" h-full p-10 flex flex-col items-center justify-center">
-          <h3 className="text-5xl font-bold mb-8">
-            Cách tân mới tạo nên một “Ván cờ nghệ thuật”
-          </h3>
+          <h3 className="text-5xl font-bold mb-8">VISION</h3>
           <div className="text-lg">
-            Từ những bàn tay khéo léo của người thợ Việt tới ngôi nhà của bạn,
-            mỗi bộ cờ của Maztermind đều được thiết kế sáng tạo và tỉ mỉ, kỳ
-            công để biến mọi cuộc chơi thành một “Ván cờ nghệ thuật”. Chúng tôi
-            không chỉ tạo ra một trò chơi đơn thuần, chúng tôi còn tạo nên những
-            khoảnh khắc kết nối cho bạn và những người thân yêu, và hơn hết, là
-            những giá trị nghệ thuật vượt thời gian.
+            Chúng tôi luôn phấn đấu không mệt mỏi hướng tới mục tiêu trở thành
+            doanh nghiệp dẫn đầu về nền tảng board game tại Việt Nam. Từ đó,
+            bằng tầm ảnh hưởng, chúng tôi hy vọng có thể đưa ngành board game
+            Việt Nam ra thị trường quốc tế, kết nối các giá trị văn hóa và gắn
+            kết những người yêu thích board game trên toàn thế giới lại với
+            nhau.
           </div>
         </div>
       </div>
       <div className="w-full md:w-1/2">
         <div className=" h-full p-10 flex flex-col items-center justify-center">
-          <h3 className="text-5xl font-bold mb-8">
-            Kết hợp truyền thống vào những thiết kế đương đại
-          </h3>
+          <h3 className="text-5xl font-bold mb-8">MISSION</h3>
           <div className="text-lg">
-            Là một nhà thiết kế board games, chúng tôi trân trọng mỗi vị khách
-            như một người “bạn cùng chơi”. Bởi vậy, chúng tôi luôn mong muốn gửi
-            gắm bạn những sản phẩm thủ công nghệ thuật cao cấp, được nghiên cứu,
-            chọn lọc từng loại vật liệu, áp dụng các kỹ thuật chuyên môn,... để
-            vừa có thể mang đến những giá trị thẩm mỹ, nâng cao trải nghiệm
-            người chơi mà không làm mất đi vẻ đẹp truyền thống, giá trị cốt lõi
-            của trò chơi.
+            Chúng tôi chuyên thiết kế và phát triển các trò chơi board game chất
+            lượng cao vừa mang tính giáo dục vừa mang tính giải trí, thể hiện sự
+            đa dạng và phong phú của văn hóa lịch sử và ẩm thực Việt Nam. Sứ
+            mệnh của chúng tôi là xây dựng một cộng đồng những người đam mê trò
+            chơi board game, nơi mọi người có thể chia sẻ niềm đam mê và kiến
+            thức về văn hóa Việt Nam. Đồng thời, chúng tôi mong muốn nâng cao sự
+            hiểu biết và thúc đẩy kết nối giữa các nền văn hóa khác nhau thông
+            qua trò chơi.
           </div>
         </div>
       </div>
       <div className="w-full md:w-1/2">
-        <img
-          src="https://www.maztermind.vn/cdn/shop/files/nicolas-picard-i_0c77gV5V0-unsplash.jpg?v=1694425004&width=1400"
-          alt="Image 1"
-        />
+        <img src="/images/Tourane_Render_05.png" alt="Image 2" />
       </div>
     </div>
   );
@@ -54,22 +45,20 @@ const CraftArt = () => {
   return (
     <div className="flex flex-col mt-10 ">
       <div className="flex items-center flex-col">
-        <h2 className="text-4xl font-bold mb-4">Nâng tầm nghệ thuật chơi</h2>
+        <h2 className="text-4xl font-bold mb-4">GIỚI THIỆU:</h2>
         <div className="max-w-[650px] text-center leading-8 text-lg">
           <div>
-            02 năm, 9 tháng là thời gian chúng tôi nghiên cứu và phát triển từng
-            chi tiết của 10 bộ games đầu tiên. Bắt đầu từ con số 0 với những ý
-            tưởng chỉ vỏn vẹn trên giấy, cho đến những bản mẫu (prototype) đầu
-            tiên trên tay, Maztermind lần đầu cho ra mắt những board games nghệ
-            thuật vào năm 2020 với sự tâm huyết và tỉ mỉ của đội ngũ nghệ nhân
-            thủ công Việt Nam.
-          </div>
-          <br />
-          <div>
-            Bằng mong muốn nâng tầm trải nghiệm chơi cho những board games
-            truyền thống, mỗi ván cờ của Maztermind không chỉ đơn thuần là sợi
-            dây kết nối mọi người sâu sắc hơn, mà còn thể hiện được phong cách
-            sống và cá tính riêng của người chơi.
+            Legacy Tales mong muốn khẳng định mình là công ty hàng đầu cung cấp
+            các sản phẩm giải trí kết hợp yếu tố giáo dục với mục đích chia sẻ
+            và lan tỏa các giá trị văn hóa các vùng miền tại Việt Nam. Mục tiêu
+            chính của chúng tôi là đặt ra tiêu chuẩn chia sẻ thông tin về du
+            lịch, ẩm thực địa phương, phong cảnh và địa danh cho khách hàng. Với
+            tầm nhìn hướng tới tương lai, chúng tôi hy vọng sẽ mở rộng dự án này
+            để bao gồm các điểm du lịch quan trọng khác ở Việt Nam. Việc tạo ra
+            một trò chơi bảng tương tác làm nổi bật sự đa dạng và phong phú về
+            văn hóa của Việt Nam sẽ giúp dự án mang tính thay đổi này trở nên
+            sống động đồng thời đóng vai trò là một nền tảng giải trí và giáo
+            dục
           </div>
         </div>
       </div>
