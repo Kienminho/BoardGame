@@ -17,7 +17,7 @@ const Header = () => {
         className="ml-2"
       >
         <Link to="/" className="!text-primary text-3xl font-bold">
-          Legacy Tales
+          Tourane Game
         </Link>
       </Navbar.Brand>
 

@@ -10,19 +10,20 @@ const Footer = () => {
           <input
             className="bg-background-footer focus:ring-2 focus:ring-blue-500 focus:outline-none appearance-none w-full text-sm leading-6 text-slate-900 placeholder-slate-400 rounded-md py-2 px-4 ring-1 ring-slate-200 shadow-sm"
             type="text"
-            aria-label="Filter projects"
-            placeholder="Filter projects..."
           />
           <p className="font-semibold text-secondary">
-            Công ty TNHH Maztermind
+            Công ty TNHH Legacy Tales
           </p>
           <p>
-            <span className="font-semibold">Địa chỉ:</span> 6/10 Cách Mạng Tháng
-            8, P.Bến Thành, Q1, TP HCM
+            <span className="font-semibold">Địa chỉ:</span> 360 Hùng Vương, Vĩnh
+            Trung, Thanh Khê, TP Đà Nẵng
           </p>
           <p>
-            <span className="font-semibold">GPKD:</span> 0317015950, cấp ngày
-            05/11/2021, tại sở KH&DT TP HCM
+            <span className="font-semibold">Contact: </span> +84905902784
+          </p>
+          <p>
+            <span className="font-semibold">Email: </span>
+            legacytales.co@gmail.com
           </p>
         </div>
         <div className="flex justify-between flex-1 text-primary">
