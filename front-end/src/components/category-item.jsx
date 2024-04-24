@@ -23,17 +23,14 @@ export default function CategoryItem({ topic }) {
       <div
         className="flex flex-col rounded-lg border border-gray-200 overflow-hidden dark:border-gray-800 max-h-[150px]"
         onClick={onOpenQuestion}
-        style={{ background: topic.color }}
+        style={{
+          backgroundImage: `url(${topic.color})`,
+          backgroundSize: "100% 100%",
+          backgroundPosition: "center",
+        }}
       >
         <div className="relative aspect-[1/1] flex items-center justify-center">
           <Link className="absolute inset-0 z-10" href="#" />
-          {/* <img
-            alt="Thumbnail"
-            className="absolute inset-0 w-full h-full object-cover"
-            height={300}
-            // src="public/images/question.png"
-            width={300}
-          /> */}
         </div>
         <div className="grid gap-1 p-4 text-3xl text-white">{topic.title}</div>
       </div>
