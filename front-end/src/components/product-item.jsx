@@ -19,7 +19,7 @@ export default function ProductItem() {
           className="font-semibold !text-black text-xl line-clamp-1 hover:underline-gray-900 dark:hover:underline-gray-50"
           href="#"
         >
-          Torane
+          Tourane Game
         </Link>
         <div className="font-semibold text-base">449.000 VNĐ</div>
         <Button size="large" type="primary">
